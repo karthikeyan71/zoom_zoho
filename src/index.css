@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.middler
+{
+  width:auto;
+  height:auto;
+}
+
+.table_style
+{
+  max-width: 80%;
+  margin:0 auto;
+}
+
+.table_style, .table_style tr, .table_style td, .table_style th
+{
+  border:1px solid grey;
+  border-collapse: collapse;
+}
+
+.over
+{
+  width:100%;
+  overflow:auto;
+}
+
+.table_style th
+{
+  text-transform: capitalize;
+  width:150px;
+  padding:10px 5px;
+  font-size:14px;
+  background-color: #444;
+  color:#fff;
+}
+.table_style td
+{
+  padding: 5px 0px;
+  text-align: center;
+  font-size:13px;
+}
